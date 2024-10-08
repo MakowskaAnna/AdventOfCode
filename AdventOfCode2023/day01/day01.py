@@ -12,6 +12,5 @@ with open('./AdventOfCode2023/day01/input.txt','r') as f:
             if line[j].isnumeric():
                 sum += int(line[j])
                 break
-            j -= 1     
- #   print(line, end='')
+            j -= 1
 print(sum)
